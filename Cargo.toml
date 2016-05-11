@@ -1,0 +1,16 @@
+[package]
+name = "tui"
+version = "0.1.0"
+authors = ["Stefan Seemayer <stefan@seemayer.de>"]
+
+[lib]
+name = "tui"
+path = "src/lib.rs"
+
+[[bin]]
+name = "separate"
+path = "src/separate.rs"
+
+[[bin]]
+name = "same"
+path = "src/lib.rs"
